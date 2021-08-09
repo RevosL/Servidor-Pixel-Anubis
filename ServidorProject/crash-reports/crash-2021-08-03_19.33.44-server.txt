@@ -1,0 +1,150 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SpongeCoremod (spongeforge-1.12.2-2838-7.3.0.jar)
+Contact their authors BEFORE contacting forge
+
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 8/3/21 7:33 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$MapIterator.nextEntry(Int2ObjectOpenHashMap.java:636)
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$ValueIterator.next(Int2ObjectOpenHashMap.java:876)
+	at org.spongepowered.common.event.tracking.PhaseTracker.completePhase(PhaseTracker.java:332)
+	at org.spongepowered.common.event.tracking.PhaseContext.close(PhaseContext.java:618)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:757)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:706)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreServerTick(FMLCommonHandler.java:279)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:657)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$MapIterator.nextEntry(Int2ObjectOpenHashMap.java:636)
+	at it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap$ValueIterator.next(Int2ObjectOpenHashMap.java:876)
+	at org.spongepowered.common.event.tracking.PhaseTracker.completePhase(PhaseTracker.java:332)
+	at org.spongepowered.common.event.tracking.PhaseContext.close(PhaseContext.java:618)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:757)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: [Empty stack]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$zjg000$onCrashReport(MinecraftServer.java:4687)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:558)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 482415192 bytes (460 MB) / 2097152000 bytes (2000 MB) up to 6291456000 bytes (6000 MB)
+	JVM Flags: 20 total; -Xms2000M -Xmx6000M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2855 74 mods loaded, 74 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	Mods:
+
+	| State  | ID                 | Version                | Source                                        | Signature                                |
+	|:------ |:------------------ |:---------------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft          | 1.12.2                 | minecraft.jar                                 | None                                     |
+	| LCHIJA | mcp                | 9.42                   | minecraft.jar                                 | None                                     |
+	| LCHIJA | FML                | 8.0.99.99              | Server.jar                                    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge              | 14.23.5.2855           | Server.jar                                    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | spongeapi          | 7.3-7127e0882          | spongeforge-1.12.2-2838-7.3.0.jar             | None                                     |
+	| LCHIJA | sponge             | 1.12.2-7.3.0           | spongeforge-1.12.2-2838-7.3.0.jar             | None                                     |
+	| LCHIJA | spongeforge        | 1.12.2-2838-7.3.0      | spongeforge-1.12.2-2838-7.3.0.jar             | None                                     |
+	| LCHIJA | pixelmon           | 8.2.0                  | Pixelmon-1.12.2-8.2.0-server.jar              | None                                     |
+	| LCHIJA | flashplus          | 1.5.5                  | FlashPlus-1.5.5-shadow.jar                    | None                                     |
+	| LCHIJA | gooeylibs          | 1.0.6                  | GooeyLibs-1.0.6.jar                           | None                                     |
+	| LCHIJA | legendaryplus      | 6.0                    | LegendaryPlus-6.0.jar                         | None                                     |
+	| LCHIJA | pauc               | 1.12.2-1.3.1-universal | PixelAuction-1.12.2-1.3.1-server.jar          | None                                     |
+	| LCHIJA | pixelextras        | 2.5.12                 | PixelExtras-1.12.2-2.5.12-universal.jar       | None                                     |
+	| LCHIJA | pixelmonbroadcasts | 0.6.1-universal        | PixelmonBroadcasts-1.12.2-0.6.1-universal.jar | None                                     |
+	| LCHIJA | pixelmonwikigui    | 1.1.4                  | pixelmonwikigui-1.1.4.jar                     | None                                     |
+	| LCHIJA | pixeltrashcan      | 1.0.1                  | PixelTrashCan-1.0.2-SNAPSHOT.jar              | None                                     |
+	| LCHIJA | remoraids          | 1.1.2                  | RemoRaids-1.12.2-1.1.2.jar                    | None                                     |
+	| LCHIJA | trainercommands    | 2.5.1                  | TrainerCommands-1.12.2-2.5.1-universal.jar    | None                                     |
+	| LCHIJA | unbreed            | 4.0                    | Unbreed-4.0.jar                               | None                                     |
+	| LCHIJA | wondertrade        | 4.6.2                  | WonderTrade-1.12.2-4.6.2-universal.jar        | None                                     |
+
+
+	Plugins:
+
+	| State  | ID                    | Version               | Source                                                        | Signature |
+	|:------ |:--------------------- |:--------------------- |:------------------------------------------------------------- |:--------- |
+	| LCHIJA | nucleus               | 2.4.0                 | Nucleus-2.4.0-MC1.12.2-SpongeAPI7.3-plugin.jar                | None      |
+	| LCHIJA | placeholderapi        | 4.4                   | PlaceholderAPI-4.4_2.jar                                      | None      |
+	| LCHIJA | ultimatechat          | 1.9.1                 | aUltimateChat-1.9.1-b290-Universal.jar                        | None      |
+	| LCHIJA | autopickup            | 1.0.5                 | AutoPickup-1.0.5.jar                                          | None      |
+	| LCHIJA | carrotshop            | 1.20-S7.2-MC1.12.2    | CarrotShop-1.20-S7.2-MC1.12.2.jar                             | None      |
+	| LCHIJA | catclearlag           | 0.9.0                 | CatClearLag-0.9.5.1.jar                                       | None      |
+	| LCHIJA | cmdcontrol            | 1.2.0                 | CmdControl-s7.1-v1.2.0.jar                                    | None      |
+	| LCHIJA | cmdscheduler          | 1.1.1                 | CmdScheduler-s7.1-v1.1.1.jar                                  | None      |
+	| LCHIJA | coinpurse             | 1.2.1                 | CoinPurse-1.2.1.jar                                           | None      |
+	| LCHIJA | command-utils         | 2.4.0                 | command-utils-2.4.0.jar                                       | None      |
+	| LCHIJA | commanditems          | 2.2                   | CommandItems-2.2.jar                                          | None      |
+	| LCHIJA | cratedrops            | 1.3                   | CrateDrops-1.3.jar                                            | None      |
+	| LCHIJA | dailyrewards          |                       | DailyRewards-api7-1.3.3.jar                                   | None      |
+	| LCHIJA | pixelmoneconomybridge | 2.0.7                 | EcoBridge-1.12.2-2.0.7.jar                                    | None      |
+	| LCHIJA | economylite           | 2.15.1                | EconomyLite-7.1.0-2.15.1.jar                                  | None      |
+	| LCHIJA | fastasyncworldedit    | development           | FastAsyncWorldEdit-sponge112-19.11.13-5505943-1282-22.3.5.jar | None      |
+	| LCHIJA | worldedit             |                       | FastAsyncWorldEdit-sponge112-19.11.13-5505943-1282-22.3.5.jar | None      |
+	| LCHIJA | griefdefender         | 1.5.10                | griefdefender-sponge-1.5.10.jar                               | None      |
+	| LCHIJA | impactor              | 3.1.2                 | Impactor-Sponge-7.1.5-3.1.2.jar                               | None      |
+	| LCHIJA | protocolcontrol       | 0.0.2                 | protocolcontrol-0.0.2.jar                                     | None      |
+	| LCHIJA | gts                   | 6.1.8-SNAPSHOT        | GTS-Sponge-6.1.8-SNAPSHOT.jar                                 | None      |
+	| LCHIJA | teslalibs             | 1.1.6                 | TeslaPowered-s7.1-v1.1.6.jar                                  | None      |
+	| LCHIJA | teslacore             | 1.1.6                 | TeslaPowered-s7.1-v1.1.6.jar                                  | None      |
+	| LCHIJA | headsevolved          | 1.0.12                | Heads-Evolved-1.0.12.jar                                      | None      |
+	| LCHIJA | holograms             | 3.1.5                 | holograms-3.1.5.jar                                           | None      |
+	| LCHIJA | huskyui               | 0.6.0PRE4             | HuskyUI-v0.6.0-PRE4-API7.jar                                  | None      |
+	| LCHIJA | huskycrates           | 2.0.0RC3              | HuskyCrates.jar                                               | None      |
+	| LCHIJA | huskycratesextension  | 1.0                   | HuskycratesExtension.jar                                      | None      |
+	| LCHIJA | lottery               | 2.0.2                 | lottery-2.0.2.jar                                             | None      |
+	| LCHIJA | luckperms             | 5.3.27                | LuckPerms-Sponge-5.3.27.jar                                   | None      |
+	| LCHIJA | mmcrestrict           | 1.7.1                 | MMCRestrict-1.7.1-API-7.jar                                   | None      |
+	| LCHIJA | nofalldamage          | 1.0.0                 | NoFallDamage-1.0-SNAPSHOT.jar                                 | None      |
+	| LCHIJA | nuvotifier            | 2.7.2                 | nuvotifier-2.7.2.jar                                          | None      |
+	| LCHIJA | packetgate            | 0.1.1                 | PacketGate-0.1.1.jar                                          | None      |
+	| LCHIJA | pixelautomessages     | 1.0.3                 | PixelAutoMessages-1.0.3-b15.jar                               | None      |
+	| LCHIJA | chatpixel             | 1.53                  | PixelChat-1.53.jar                                            | None      |
+	| LCHIJA | pixelgenocide         | 1.1.1                 | PixelGenocide-1.1.1.jar                                       | None      |
+	| LCHIJA | pixelhunt             | 1.1.3                 | PixelHunt-1.1.3-MC1.12.2-S7.2.0.jar                           | None      |
+	| LCHIJA | pixelmonoverlay       | 1.1.1                 | pixelmonoverlay-1.1.1.jar                                     | None      |
+	| LCHIJA | pixelmonplaceholders  | 2.1.6                 | pixelmonplaceholders-2.1.6.jar                                | None      |
+	| LCHIJA | plotsquared           | 3.5.0-SNAPSHOT        | PlotSquared-Sponge-20.04.13-6481f4f-797.jar                   | None      |
+	| LCHIJA | poketeams             | 4.0.8                 | PokeTeams-4.0.8.jar                                           | None      |
+	| LCHIJA | pjc                   | 0.3.0                 | projectcore-7.2.0-0.3.0.jar                                   | None      |
+	| LCHIJA | queuebattles          | 1.0.2                 | QueueBattles-1.12.2-1.0.2.jar                                 | None      |
+	| LCHIJA | skitskurrsranchloot   | 1.0                   | RanchLoot.jar                                                 | None      |
+	| LCHIJA | safetrade             | 1.12.2-3.0.4-PIXELMON | SafeTrade-1.12.2-3.0.4-PIXELMON.jar                           | None      |
+	| LCHIJA | seriousvote           | 4.9.1                 | seriousvote-4.9.1.jar                                         | None      |
+	| LCHIJA | simpledexrewards      |                       | SimpleDexRewards-1.0.1-RELEASE-.jar                           | None      |
+	| LCHIJA | skinsrestorer         | 14.0.2                | SkinsRestorer.jar                                             | None      |
+	| LCHIJA | stackban              | 0.3.0                 | stackban-7.1.0-0.3.0.jar                                      | None      |
+	| LCHIJA | statusprotocol        | 0.3                   | statusprotocol-0.3.jar                                        | None      |
+	| LCHIJA | tabmanager            | 2.1.3-S7.0-MC1.12.2   | TabManager-2.1.3-S7.0-MC1.12.2.jar                            | None      |
+	| LCHIJA | virtualchest          | 1.0.2                 | VirtualChest-1.0.2.jar                                        | None      |
+	| LCHIJA | voteparty             | 1.3.4                 | VoteParty-1.3.4.jar                                           | None      |
+
+	Loaded coremods (and transformers): 
+SpongeCoremod (spongeforge-1.12.2-2838-7.3.0.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 100; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)

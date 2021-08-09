@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "node": {
+    "47eee3f7-d85b-34a1-8f9d-746fc9a254c1": {
+      "ipAddress": "25.7.63.84",
+      "isMuted": false
+    },
+    "6fa44f71-be18-3cfb-adb4-6b08189da906": {
+      "ipAddress": "25.95.117.31",
+      "isMuted": false
+    },
+    "cbaf4500-da5e-395f-ad9c-ac46ecb3f6ad": {
+      "ipAddress": "25.0.196.103",
+      "isMuted": false
+    },
+    "21fb4f6a-03fd-3133-8bf9-4d1a51463989": {
+      "ipAddress": "25.85.117.253",
+      "isMuted": false
+    }
+  }
+}

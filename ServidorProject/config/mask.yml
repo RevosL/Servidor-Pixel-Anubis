@@ -1,0 +1,16 @@
+apiKey: yourkey
+modes:
+    0:
+        executeCommands: false
+        commands: {commandOne: 'give {player} minecraft:cobblestone 1', commandTwo: 'give
+                {player} minecraft:cobblestone 1'}
+    1:
+        executeCommands: true
+        commands: {commandOne: 'give {player} minecraft:cobblestone 1', commandTwo: '{player}
+                with UUID: {uuid} has logged in from {ip} with asn: {asn} at location
+                {countryCode} {countryName} {isp} with block mode: {block}'}
+    2:
+        executeCommands: true
+        commands: {commandOne: 'give {player} minecraft:cobblestone 1', commandTwo: '{player}
+                with UUID: {uuid} has logged in from {ip} with asn: {asn} at location
+                {countryCode} {countryName} {isp} with block mode: {block}'}
