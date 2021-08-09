@@ -121,7 +121,7 @@ General {
     # Enables unlocking the Oval Charm upon completion of a regional Pokédex.
     allowOvalCharmFromPokedex=true
     # Whether Pay Day will award extra PokéDollars when used.
-    allowPayDay=true
+    allowPayDay=false
     # Allow players to plant Apricorns and Berries in the ground.
     allowPlanting=true
     # Server-side, whether players can use Pokémon editors. Client-side, whether other players can use a Pokémon editor on the player with the setting.
