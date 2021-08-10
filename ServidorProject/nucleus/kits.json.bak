@@ -141,12 +141,13 @@
       }
     ],
     "interval": 3000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "diario": {
@@ -305,12 +306,13 @@
       }
     ],
     "interval": 86400,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "mmod": {
@@ -545,7 +547,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -600,12 +602,13 @@
       }
     ],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "sminiyt": {
@@ -618,7 +621,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -632,8 +635,9 @@
     "firstJoin": false
   },
   "m-lendk": {
+    "stacks": [],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -711,7 +715,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -768,12 +772,13 @@
       }
     ],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "livros": {
@@ -857,12 +862,13 @@
       }
     ],
     "interval": 900,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "farm": {
@@ -953,12 +959,13 @@
       }
     ],
     "interval": 172800,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "raro": {
@@ -1007,7 +1014,7 @@
       }
     ],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1155,7 +1162,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1287,12 +1294,13 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "s-mega": {
@@ -1311,7 +1319,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1325,8 +1333,9 @@
     "firstJoin": false
   },
   "start": {
+    "stacks": [],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
@@ -1357,19 +1366,20 @@
       }
     ],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "inicial": {
     "stacks": [
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:compass",
+        "ItemType": "minecraft:clock",
         "Count": 1,
         "UnsafeDamage": 0,
         "Data": [
@@ -1471,34 +1481,6 @@
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:nether_star",
-        "Count": 1,
-        "UnsafeDamage": 0,
-        "Data": [
-          {
-            "ContentVersion": 2,
-            "ManipulatorId": "commanditems:commanditem_data",
-            "ManipulatorData": {
-              "ContentVersion": 2,
-              "commanditem": "start"
-            }
-          }
-        ],
-        "UnsafeData": {
-          "display": {
-            "Lore": [
-              "§aUse com direito",
-              "§apara receber benificio START!",
-              "§a/kit dstart / sstart / mstart!",
-              "§a/fly - /pc - /pokeheal!",
-              "§aUSE COM CLIQUE DIREITO NO AR!"
-            ],
-            "Name": "§3§lBeneficio §d§l(START) §3§lPor 7 Dias"
-          }
-        }
-      },
-      {
-        "ContentVersion": 2,
         "ItemType": "minecraft:written_book",
         "Count": 1,
         "UnsafeDamage": 0,
@@ -1576,41 +1558,13 @@
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:leather_chestplate",
-        "Count": 1,
-        "UnsafeDamage": 0,
-        "UnsafeData": {
-          "ench": [
-            {
-              "lvl": 2,
-              "id": 0
-            }
-          ]
-        }
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:leather_boots",
-        "Count": 1,
-        "UnsafeDamage": 0,
-        "UnsafeData": {
-          "ench": [
-            {
-              "lvl": 2,
-              "id": 0
-            }
-          ]
-        }
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:crafting_table",
-        "Count": 1,
+        "ItemType": "minecraft:cobblestone",
+        "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:new_running_boots",
+        "ItemType": "minecraft:crafting_table",
         "Count": 1,
         "UnsafeDamage": 0
       },
@@ -1628,7 +1582,7 @@
       {
         "ContentVersion": 2,
         "ItemType": "pixelmon:xl_exp_candy",
-        "Count": 24,
+        "Count": 10,
         "UnsafeDamage": 0
       },
       {
@@ -1649,12 +1603,20 @@
         "Count": 1,
         "UnsafeDamage": 0,
         "UnsafeData": {
-          "ench": [
-            {
-              "lvl": 2,
-              "id": 0
-            }
-          ]
+          "display": {
+            "color": 7911579
+          }
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:leather_chestplate",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "display": {
+            "color": 7911579
+          }
         }
       },
       {
@@ -1663,28 +1625,31 @@
         "Count": 1,
         "UnsafeDamage": 0,
         "UnsafeData": {
-          "ench": [
-            {
-              "lvl": 2,
-              "id": 0
-            }
-          ]
+          "display": {
+            "color": 7911579
+          }
         }
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:cobblestone",
-        "Count": 64,
-        "UnsafeDamage": 0
+        "ItemType": "minecraft:leather_boots",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "display": {
+            "color": 7911579
+          }
+        }
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": true
   },
   "dyoutuber": {
@@ -1745,7 +1710,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1868,7 +1833,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1892,7 +1857,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1906,8 +1871,9 @@
     "firstJoin": false
   },
   "pascoa": {
+    "stacks": [],
     "interval": 0,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
@@ -1959,12 +1925,13 @@
       }
     ],
     "interval": 3600,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": true,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "dajd+": {
@@ -2073,7 +2040,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2136,7 +2103,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2347,12 +2314,13 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0,
+    "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
+    "commands": [],
     "firstJoin": false
   }
 }
