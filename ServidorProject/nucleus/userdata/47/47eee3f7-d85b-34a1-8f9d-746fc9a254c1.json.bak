@@ -3,11 +3,15 @@
   "lastLogin": 1628560270960,
   "lastIP": "/25.7.63.84",
   "usedKits": {
-    "inicial": 1627696720118,
+    "inicial": 1628567246203,
     "sajd+": 1627866089707,
     "dyoutuber": 1627866102558,
     "dmod": 1627866112807,
-    "caixas": 1628550514668
+    "caixas": 1628550514668,
+    "diario": 1628569006259,
+    "farm": 1628569096263,
+    "casa": 1628569157761,
+    "ajuda": 1628569175005
   },
   "firstJoin": 1627696719790,
   "firstJoinProcessed": true,

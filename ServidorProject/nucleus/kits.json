@@ -45,15 +45,15 @@
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:blaze_rod",
-        "Count": 1,
+        "ItemType": "minecraft:log",
+        "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:golden_shovel",
-        "Count": 1,
-        "UnsafeDamage": 0
+        "ItemType": "minecraft:log",
+        "Count": 64,
+        "UnsafeDamage": 3
       },
       {
         "ContentVersion": 2,
@@ -126,186 +126,9 @@
         "ItemType": "minecraft:log",
         "Count": 64,
         "UnsafeDamage": 1
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:log",
-        "Count": 64,
-        "UnsafeDamage": 3
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:log",
-        "Count": 64,
-        "UnsafeDamage": 0
       }
     ],
     "interval": 3000,
-    "cost": 0.0,
-    "autoRedeem": false,
-    "oneTime": false,
-    "displayMessage": true,
-    "ignoresPermission": false,
-    "hidden": false,
-    "commands": [],
-    "firstJoin": false
-  },
-  "diario": {
-    "stacks": [
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:ultra_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:great_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:quick_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:poke_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:black_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:white_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:pink_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:green_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:yellow_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:red_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:cooked_beef",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:blue_apricorn",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:milk_bucket",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:skull",
-        "Count": 1,
-        "UnsafeDamage": 3,
-        "UnsafeData": {
-          "SkullOwner": {
-            "Id": "debdb03a-d212-4fc9-a7e2-b3c2b17baf5a",
-            "Properties": {
-              "textures": [
-                {
-                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmZmUxYjYwNDE1MDQ2ZTY5NGY2OWIyMjY2YmQzMGQxM2Q4YjQxNDYzODY3Zjg0ZjBmZjA1NmViNjQ0MDdjYiJ9fX0\u003d"
-                }
-              ]
-            }
-          },
-          "display": {
-            "Lore": [
-              "§3Category : Monsters",
-              "§3Tags : Enderman, Herobrine"
-            ],
-            "Name": "§bEnderbrine"
-          }
-        }
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:milk_bucket",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:cooked_beef",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:cooked_beef",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:cooked_beef",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:skull",
-        "Count": 1,
-        "UnsafeDamage": 3,
-        "UnsafeData": {
-          "SkullOwner": {
-            "Id": "71841a13-3487-40dd-9b19-b568256e3605",
-            "Properties": {
-              "textures": [
-                {
-                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0ZGFhODQ5ZmZkMmVlODc4MjkzNDljNzQzNDY1MzIxNTRhOTU3MmVhZTBkZmVkMmJiMjgzMWYxYmQwOTdiIn19fQ\u003d\u003d"
-                }
-              ]
-            }
-          },
-          "display": {
-            "Lore": [
-              "§3Category : Monsters",
-              "§3Tags : Among Us, Puppets and Plushies, PetPlugin"
-            ],
-            "Name": "§bMini Crewmate (white)"
-          }
-        }
-      }
-    ],
-    "interval": 86400,
     "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
@@ -560,6 +383,171 @@
       "hc key Pokemon {{player}} 2",
       "hc key PixelLeg {{player}} 1"
     ],
+    "firstJoin": false
+  },
+  "diario": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 16,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 16,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:great_ball",
+        "Count": 16,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:poke_ball",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:black_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:white_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:pink_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:green_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:yellow_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:red_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:cooked_beef",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:cooked_beef",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:blue_apricorn",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:cooked_beef",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:cooked_beef",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:milk_bucket",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:milk_bucket",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:skull",
+        "Count": 1,
+        "UnsafeDamage": 3,
+        "UnsafeData": {
+          "SkullOwner": {
+            "Id": "71841a13-3487-40dd-9b19-b568256e3605",
+            "Properties": {
+              "textures": [
+                {
+                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0ZGFhODQ5ZmZkMmVlODc4MjkzNDljNzQzNDY1MzIxNTRhOTU3MmVhZTBkZmVkMmJiMjgzMWYxYmQwOTdiIn19fQ\u003d\u003d"
+                }
+              ]
+            }
+          },
+          "display": {
+            "Lore": [
+              "§3Category : Monsters",
+              "§3Tags : Among Us, Puppets and Plushies, PetPlugin"
+            ],
+            "Name": "§bMini Crewmate (white)"
+          }
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:skull",
+        "Count": 1,
+        "UnsafeDamage": 3,
+        "UnsafeData": {
+          "SkullOwner": {
+            "Id": "debdb03a-d212-4fc9-a7e2-b3c2b17baf5a",
+            "Properties": {
+              "textures": [
+                {
+                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmZmUxYjYwNDE1MDQ2ZTY5NGY2OWIyMjY2YmQzMGQxM2Q4YjQxNDYzODY3Zjg0ZjBmZjA1NmViNjQ0MDdjYiJ9fX0\u003d"
+                }
+              ]
+            }
+          },
+          "display": {
+            "Lore": [
+              "§3Category : Monsters",
+              "§3Tags : Enderman, Herobrine"
+            ],
+            "Name": "§bEnderbrine"
+          }
+        }
+      }
+    ],
+    "interval": 86400,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "caixas": {
@@ -871,103 +859,6 @@
     "commands": [],
     "firstJoin": false
   },
-  "farm": {
-    "stacks": [
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:iron_axe",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:iron_pickaxe",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:iron_shovel",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:iron_hoe",
-        "Count": 1,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:golden_apple",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:pumpkin",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:reeds",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:nether_wart",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:melon",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:cactus",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:soul_sand",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:sand",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:dirt",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:ice",
-        "Count": 64,
-        "UnsafeDamage": 0
-      }
-    ],
-    "interval": 172800,
-    "cost": 0.0,
-    "autoRedeem": false,
-    "oneTime": false,
-    "displayMessage": true,
-    "ignoresPermission": false,
-    "hidden": false,
-    "commands": [],
-    "firstJoin": false
-  },
   "raro": {
     "stacks": [
       {
@@ -1024,6 +915,91 @@
       "hc key MegaStones {{player}}",
       "hc key ShinyRegular {{player}}"
     ],
+    "firstJoin": false
+  },
+  "farm": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:iron_axe",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:iron_pickaxe",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:iron_shovel",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:iron_hoe",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:golden_apple",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:pumpkin",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:reeds",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:melon",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:dye",
+        "Count": 32,
+        "UnsafeDamage": 15
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:dirt",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:sand",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:ice",
+        "Count": 64,
+        "UnsafeDamage": 0
+      }
+    ],
+    "interval": 172800,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [],
     "firstJoin": false
   },
   "mstart": {
@@ -1180,26 +1156,20 @@
     "stacks": [
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:level_ball_disc",
-        "Count": 64,
+        "ItemType": "pixelmon:great_ball",
+        "Count": 16,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:level_ball_disc",
-        "Count": 64,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 16,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:moon_ball_disc",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:moon_ball_disc",
-        "Count": 64,
+        "ItemType": "pixelmon:poke_ball",
+        "Count": 32,
         "UnsafeDamage": 0
       },
       {
@@ -1210,86 +1180,62 @@
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:coal",
+        "ItemType": "pixelmon:iron_disc",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:coal",
+        "ItemType": "pixelmon:aluminum_disc",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "minecraft:stone_button",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:stone_button",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:stone_button",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "minecraft:stone_button",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:poke_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:ultra_ball",
+        "ItemType": "pixelmon:quick_ball_disc",
         "Count": 32,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:iron_disc",
+        "ItemType": "pixelmon:poke_ball_disc",
+        "Count": 32,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:anvil",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "minecraft:stone_button",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:aluminum_disc",
+        "ItemType": "minecraft:coal",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:iron_disc",
+        "ItemType": "minecraft:coal",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:aluminum_disc",
+        "ItemType": "minecraft:stone_button",
         "Count": 64,
         "UnsafeDamage": 0
       },
       {
         "ContentVersion": 2,
-        "ItemType": "pixelmon:poke_ball",
-        "Count": 64,
-        "UnsafeDamage": 0
-      },
-      {
-        "ContentVersion": 2,
-        "ItemType": "pixelmon:great_ball",
-        "Count": 64,
+        "ItemType": "pixelmon:aluminium_hammer",
+        "Count": 1,
         "UnsafeDamage": 0
       }
     ],

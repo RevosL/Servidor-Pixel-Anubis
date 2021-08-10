@@ -105,7 +105,7 @@ ExternalMoves {
 # General settings for the world.
 General {
     # Whether Amulet Coin will award double PokéDollars when used.
-    allowAmuletCoin=true
+    allowAmuletCoin=false
     # Allow the anvil to replace finished items with starting item from player's inventory without manual placing.
     allowAnvilAutoreloading=false
     # Allow player to throw Poke Balls from hotbar. If false, Poke Balls can only be thrown in battles.
@@ -115,7 +115,7 @@ General {
     # Whether G-Max Gold Rush will award extra PokéDollars when used.
     allowGMaxGoldRush=true
     # Whether Happy Hour will award double PokéDollars when used.
-    allowHappyHour=true
+    allowHappyHour=false
     # Whether shinies which aren't available in Pokémon are available here or not.
     allowIllegalShinies=true
     # Enables unlocking the Oval Charm upon completion of a regional Pokédex.
