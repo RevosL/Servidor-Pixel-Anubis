@@ -1,7 +1,7 @@
 {
   "data_version": 2,
-  "lastLogin": 1628572355786,
-  "lastIP": "/25.85.117.253",
+  "lastLogin": 1629084471124,
+  "lastIP": "/26.79.102.177",
   "vanish": false,
   "usedKits": {
     "inicial": 1627925405555
@@ -10,5 +10,6 @@
   "firstJoinProcessed": true,
   "jailOnNextLogin": false,
   "lastKnownName": "fgn147",
-  "fly": true
+  "fly": true,
+  "powertools": {}
 }

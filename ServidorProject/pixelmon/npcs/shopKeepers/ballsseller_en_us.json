@@ -484,75 +484,15 @@
   ],
   "items": [
     {
-      "name": "pixelmon:poke_ball",
+      "name": "pixelmon:master_ball",
       "variation": false
     },
     {
-      "name": "pixelmon:great_ball",
+      "name": "pixelmon:park_ball",
       "variation": false
     },
     {
-      "name": "pixelmon:ultra_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:dive_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:dusk_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:fast_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:friend_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:heal_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:heavy_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:love_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:lure_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:luxury_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:nest_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:net_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:quick_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:repeat_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:sport_ball",
-      "variation": false
-    },
-    {
-      "name": "pixelmon:timer_ball",
+      "name": "pixelmon:gs_ball",
       "variation": false
     }
   ]

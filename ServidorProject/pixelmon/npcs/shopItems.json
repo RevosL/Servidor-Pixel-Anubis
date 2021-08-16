@@ -74,7 +74,7 @@
     },
     {
       "name": "pixelmon:ranch",
-      "buy": 1600000
+      "buy": 2000000
     },
     {
       "name": "pixelmon:master_ball",
@@ -83,6 +83,10 @@
     {
       "name": "pixelmon:park_ball",
       "buy": 400000
+    },
+    {
+      "name": "pixelmon:gs_ball",
+      "buy": 500000
     },
     {
       "name": "pixelmon:poke_ball",

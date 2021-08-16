@@ -138,6 +138,148 @@
     "commands": [],
     "firstJoin": false
   },
+  "urano": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:master_ball",
+        "Count": 3,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_lens",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_band",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_weight",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_anklet",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_bracer",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_belt",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:destiny_knot",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ever_stone",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      }
+    ],
+    "interval": 2678400,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [
+      "hc k Pokemon {{player}} 5",
+      "hc k PixelLeg {{player}} 2"
+    ],
+    "firstJoin": false
+  },
   "mmod": {
     "stacks": [
       {
@@ -769,6 +911,106 @@
     "commands": [],
     "firstJoin": false
   },
+  "orion": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ever_stone",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_anklet",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_belt",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_lens",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_band",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_bracer",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_weight",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:destiny_knot",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      }
+    ],
+    "interval": 2678400,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [
+      "hc k PixelLeg {{player}}",
+      "hc k Pokemon {{player}} 2"
+    ],
+    "firstJoin": false
+  },
   "livros": {
     "stacks": [
       {
@@ -857,6 +1099,299 @@
     "ignoresPermission": false,
     "hidden": false,
     "commands": [],
+    "firstJoin": false
+  },
+  "nemesis": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:master_ball",
+        "Count": 5,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:thunder_stone_shovel",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "ench": [
+            {
+              "lvl": 3,
+              "id": 34
+            },
+            {
+              "lvl": 5,
+              "id": 32
+            },
+            {
+              "lvl": 3,
+              "id": 35
+            }
+          ],
+          "RepairCost": 7
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:thunder_stone_pickaxe",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "ench": [
+            {
+              "lvl": 3,
+              "id": 34
+            },
+            {
+              "lvl": 5,
+              "id": 32
+            },
+            {
+              "lvl": 3,
+              "id": 35
+            }
+          ],
+          "RepairCost": 7
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:thunder_stone_hoe",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "ench": [
+            {
+              "lvl": 3,
+              "id": 34
+            },
+            {
+              "lvl": 5,
+              "id": 32
+            },
+            {
+              "lvl": 3,
+              "id": 35
+            }
+          ],
+          "RepairCost": 7
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:thunder_stone_axe",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "ench": [
+            {
+              "lvl": 3,
+              "id": 34
+            },
+            {
+              "lvl": 5,
+              "id": 32
+            },
+            {
+              "lvl": 3,
+              "id": 35
+            }
+          ],
+          "RepairCost": 7
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:thunder_stone_hammer",
+        "Count": 1,
+        "UnsafeDamage": 0,
+        "UnsafeData": {
+          "ench": [
+            {
+              "lvl": 3,
+              "id": 34
+            },
+            {
+              "lvl": 5,
+              "id": 32
+            },
+            {
+              "lvl": 3,
+              "id": 35
+            }
+          ],
+          "RepairCost": 7
+        }
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ever_stone",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:destiny_knot",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_weight",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_bracer",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_belt",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_lens",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_anklet",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_band",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ranch",
+        "Count": 1,
+        "UnsafeDamage": 0
+      }
+    ],
+    "interval": 2678400,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [
+      "hc k PixelLeg {{player}} 3",
+      "hc k Pokemon {{player}} 8"
+    ],
     "firstJoin": false
   },
   "raro": {
@@ -993,6 +1528,18 @@
       }
     ],
     "interval": 172800,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [],
+    "firstJoin": false
+  },
+  "comando": {
+    "stacks": [],
+    "interval": 0,
     "cost": 0.0,
     "autoRedeem": false,
     "oneTime": false,
@@ -1149,6 +1696,148 @@
       "hc k PixelRegular {{player}} 3",
       "hc k PokemonRegular {{player}} 3",
       "hc k ShinyRegular {{player}} 1"
+    ],
+    "firstJoin": false
+  },
+  "beta": {
+    "stacks": [
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_weight",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_belt",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_band",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:quick_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:rare_candy",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ultra_ball",
+        "Count": 64,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_anklet",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_bracer",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:power_lens",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:destiny_knot",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:ever_stone",
+        "Count": 1,
+        "UnsafeDamage": 0
+      },
+      {
+        "ContentVersion": 2,
+        "ItemType": "pixelmon:master_ball",
+        "Count": 3,
+        "UnsafeDamage": 0
+      }
+    ],
+    "interval": 0,
+    "cost": 0.0,
+    "autoRedeem": false,
+    "oneTime": false,
+    "displayMessage": true,
+    "ignoresPermission": false,
+    "hidden": false,
+    "commands": [
+      "hc k Pokemon {{player}} 5",
+      "hc k PixelLeg {{player}} 2"
     ],
     "firstJoin": false
   },
