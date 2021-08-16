@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-08-16 01:21:14 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/yellow_umbrella": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -719,9 +725,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-08-16 01:28:51 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2021-08-09 19:47:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2021-08-16 01:13:56 -0300"
     },
     "done": true
   },
@@ -1633,6 +1651,12 @@
   "pixelmon:recipes/decorative/purple_cushion_chair": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2021-08-16 01:21:15 -0300"
     },
     "done": true
   },

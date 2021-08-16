@@ -82,5 +82,5 @@
     "nucleus:powertool-toggle": true
   },
   "powertools": {},
-  "isFrozen": true
+  "isFrozen": false
 }

@@ -17,5 +17,6 @@
   "vanish": false,
   "jailOnNextLogin": false,
   "lastKnownName": "JUNKDOG",
-  "fly": false
+  "fly": false,
+  "powertools": {}
 }
