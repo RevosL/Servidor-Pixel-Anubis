@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2021-08-16 21:07:04 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/brown_rug": {
     "criteria": {
       "has_wool": "2021-08-03 22:43:58 -0300"
@@ -365,6 +371,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/lures/lure_ha_weak": {
+    "criteria": {
+      "has_salac": "2021-08-16 20:53:12 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2021-08-02 01:48:29 -0300"
@@ -455,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2021-08-16 16:00:17 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/yellow_cushion_chair": {
     "criteria": {
       "has_wool": "2021-08-03 22:43:58 -0300"
@@ -491,6 +509,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-08-16 21:07:04 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
     "criteria": {
       "has_black_dye": "2021-08-01 23:13:05 -0300"
@@ -512,6 +536,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2021-08-16 14:22:27 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2021-08-16 20:21:11 -0300"
     },
     "done": true
   },
@@ -660,6 +690,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2021-08-16 16:00:17 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2021-08-10 01:17:53 -0300"
@@ -726,6 +762,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_bricks": {
+    "criteria": {
+      "has_end_stone": "2021-08-16 20:24:27 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/blue_rug": {
     "criteria": {
       "has_wool": "2021-08-03 22:43:58 -0300"
@@ -741,6 +783,12 @@
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-08-03 22:43:58 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
+    "criteria": {
+      "wild_battle_victory_trigger": "2021-08-16 21:00:12 -0300"
     },
     "done": true
   },
@@ -821,6 +869,12 @@
       "has_gray_wool": "2021-08-03 22:43:58 -0300"
     },
     "done": true
+  },
+  "pixelmon:recipes/lures/lure_shiny_weak": {
+    "criteria": {
+      "has_salac": "2021-08-16 20:53:12 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
@@ -966,6 +1020,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-08-16 21:07:04 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/black_rug": {
     "criteria": {
       "has_wool": "2021-08-03 22:43:58 -0300"
@@ -1012,6 +1072,7 @@
     "criteria": {
       "forest": "2021-08-10 00:46:17 -0300",
       "mushroom_island_shore": "2021-08-16 01:02:11 -0300",
+      "deep_ocean": "2021-08-16 21:06:28 -0300",
       "beaches": "2021-08-16 01:00:27 -0300",
       "extreme_hills_with_trees": "2021-08-15 22:35:39 -0300",
       "forest_hills": "2021-08-15 22:34:36 -0300",
@@ -1220,6 +1281,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2021-08-01 23:28:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2021-08-16 16:00:17 -0300"
     },
     "done": true
   },

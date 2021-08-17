@@ -593,6 +593,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2021-08-16 20:29:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2021-07-30 22:58:41 -0300"
@@ -713,6 +719,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2021-08-16 20:55:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
     "criteria": {
       "has_bonemeal": "2021-08-01 21:38:17 -0300"
@@ -805,6 +817,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "shulker": "2021-08-16 18:20:53 -0300",
+      "wither_skeleton": "2021-08-16 18:13:56 -0300",
+      "polar_bear": "2021-08-16 18:18:42 -0300",
+      "vindicator": "2021-08-16 18:20:45 -0300",
+      "spider": "2021-08-16 18:20:56 -0300",
       "enderman": "2021-08-16 14:26:55 -0300"
     },
     "done": false
@@ -1109,6 +1126,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_bricks": {
+    "criteria": {
+      "has_end_stone": "2021-08-16 20:31:12 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/blue_rug": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -1172,6 +1195,12 @@
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2021-08-09 19:47:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2021-08-16 18:18:10 -0300"
     },
     "done": true
   },
@@ -1343,6 +1372,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2021-08-16 20:55:39 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/blue_cushion_chair": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -1373,9 +1408,21 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/red_folding_chair": {
+    "criteria": {
+      "has_wool": "2021-08-16 20:55:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_log": "2021-08-01 23:21:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2021-08-16 18:13:56 -0300"
     },
     "done": true
   },
@@ -1585,6 +1632,12 @@
   "minecraft:recipes/decorations/light_blue_banner": {
     "criteria": {
       "has_light_blue_wool": "2021-08-08 20:22:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2021-08-16 20:55:39 -0300"
     },
     "done": true
   },
