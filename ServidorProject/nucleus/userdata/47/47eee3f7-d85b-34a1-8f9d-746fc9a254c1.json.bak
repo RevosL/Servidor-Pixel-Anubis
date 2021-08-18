@@ -1,6 +1,6 @@
 {
   "data_version": 2,
-  "lastLogin": 1629155843071,
+  "lastLogin": 1629290538773,
   "lastIP": "/25.7.63.84",
   "usedKits": {
     "inicial": 1628567246203,
@@ -81,6 +81,5 @@
   "user-prefs": {
     "nucleus:powertool-toggle": true
   },
-  "isFrozen": false,
-  "powertools": {}
+  "isFrozen": false
 }

@@ -1,4 +1,4 @@
-apiKey: yourkey
+apiKey: MTQ2MTY6M29OU3N1d3BDcnZObldhZEJ3emF5OHlNcW5VUGg0aUg=
 modes:
     0:
         executeCommands: false
@@ -6,11 +6,13 @@ modes:
                 {player} minecraft:cobblestone 1'}
     1:
         executeCommands: true
-        commands: {commandOne: 'give {player} minecraft:cobblestone 1', commandTwo: '{player}
-                with UUID: {uuid} has logged in from {ip} with asn: {asn} at location
-                {countryCode} {countryName} {isp} with block mode: {block}'}
+        commands: {commandOne: 'ban {player} 3600 VPN-Detect-Contatenos-via-Discord',
+            commandTwo: 'ad &5&l {player} , Detectado uso de &1VPN with UUID: {uuid}
+                has logged in from {ip} with asn: {asn} at location {countryCode}
+                {countryName} {isp} with block mode: {block}'}
     2:
         executeCommands: true
-        commands: {commandOne: 'give {player} minecraft:cobblestone 1', commandTwo: '{player}
-                with UUID: {uuid} has logged in from {ip} with asn: {asn} at location
-                {countryCode} {countryName} {isp} with block mode: {block}'}
+        commands: {commandOne: 'ban {player} 3600 VPN-Detect-Contatenos-via-Discord',
+            commandTwo: 'ad &5&l {player} , Detectado uso de &1VPN with UUID: {uuid}
+                has logged in from {ip} with asn: {asn} at location {countryCode}
+                {countryName} {isp} with block mode: {block}'}
