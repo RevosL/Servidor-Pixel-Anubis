@@ -1,6 +1,6 @@
 {
   "data_version": 2,
-  "lastLogin": 1629316181733,
+  "lastLogin": 1629588632010,
   "lastIP": "/26.101.171.4",
   "usedKits": {
     "inicial": 1627865595570,
@@ -17,5 +17,6 @@
   "vanish": false,
   "jailOnNextLogin": false,
   "lastKnownName": "JUNKDOG",
-  "fly": false
+  "fly": false,
+  "powertools": {}
 }
