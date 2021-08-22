@@ -129,13 +129,12 @@
       }
     ],
     "interval": 3000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "urano": {
@@ -268,7 +267,7 @@
       }
     ],
     "interval": 2678400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -512,7 +511,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -683,13 +682,12 @@
       }
     ],
     "interval": 86400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "caixas": {
@@ -732,13 +730,12 @@
       }
     ],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "sminiyt": {
@@ -751,7 +748,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -765,9 +762,8 @@
     "firstJoin": false
   },
   "m-lendk": {
-    "stacks": [],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -845,7 +841,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -902,13 +898,12 @@
       }
     ],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "orion": {
@@ -999,7 +994,7 @@
       }
     ],
     "interval": 2678400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1092,13 +1087,12 @@
       }
     ],
     "interval": 900,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "nemesis": {
@@ -1382,7 +1376,7 @@
       }
     ],
     "interval": 2678400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1440,7 +1434,7 @@
       }
     ],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1528,25 +1522,22 @@
       }
     ],
     "interval": 172800,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "comando": {
-    "stacks": [],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "mstart": {
@@ -1685,7 +1676,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1829,7 +1820,7 @@
       }
     ],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1929,13 +1920,12 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "s-mega": {
@@ -1954,7 +1944,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -1968,9 +1958,8 @@
     "firstJoin": false
   },
   "start": {
-    "stacks": [],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
@@ -2001,13 +1990,12 @@
       }
     ],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "inicial": {
@@ -2278,13 +2266,12 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": true
   },
   "dyoutuber": {
@@ -2345,7 +2332,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2468,7 +2455,7 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2492,7 +2479,7 @@
       }
     ],
     "interval": 604800,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2506,9 +2493,8 @@
     "firstJoin": false
   },
   "pascoa": {
-    "stacks": [],
     "interval": 0,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": true,
     "displayMessage": true,
@@ -2560,13 +2546,12 @@
       }
     ],
     "interval": 3600,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": true,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   },
   "dajd+": {
@@ -2675,7 +2660,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2738,7 +2723,7 @@
       }
     ],
     "interval": 86400,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
@@ -2949,13 +2934,12 @@
       }
     ],
     "interval": 2592000,
-    "cost": 0.0,
+    "cost": 0,
     "autoRedeem": false,
     "oneTime": false,
     "displayMessage": true,
     "ignoresPermission": false,
     "hidden": false,
-    "commands": [],
     "firstJoin": false
   }
 }

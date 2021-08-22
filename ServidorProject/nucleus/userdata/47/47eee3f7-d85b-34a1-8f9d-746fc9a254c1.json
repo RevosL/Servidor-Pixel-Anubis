@@ -1,16 +1,16 @@
 {
   "data_version": 2,
-  "lastLogin": 1629606040952,
+  "lastLogin": 1629611977365,
   "lastIP": "/25.7.63.84",
   "usedKits": {
-    "inicial": 1628567246203,
+    "inicial": 1629611486883,
     "sajd+": 1627866089707,
     "dyoutuber": 1627866102558,
     "dmod": 1627866112807,
     "caixas": 1628550514668,
     "diario": 1628569006259,
     "farm": 1628569096263,
-    "casa": 1628569157761,
+    "casa": 1629613162739,
     "ajuda": 1628569175005,
     "orion": 1629070609966,
     "urano": 1629070713516,
@@ -21,7 +21,7 @@
   "vanish": false,
   "jailOnNextLogin": false,
   "lastKnownName": "Zooaa",
-  "fly": false,
+  "fly": true,
   "homes": {
     "spawn": {
       "x": 5000.446830309386,
@@ -90,5 +90,6 @@
   "user-prefs": {
     "nucleus:powertool-toggle": true
   },
-  "isFrozen": false
+  "isFrozen": false,
+  "powertools": {}
 }
