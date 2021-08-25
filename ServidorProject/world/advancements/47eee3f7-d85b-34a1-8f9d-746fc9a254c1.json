@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2021-08-25 01:48:20 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/snow": {
     "criteria": {
       "has_snowball": "2021-08-01 23:47:09 -0300"
@@ -137,6 +143,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/red_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/black_cushion_chair": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -158,6 +170,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2021-08-08 19:52:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stonebrick": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-08-25 04:07:55 -0300"
     },
     "done": true
   },
@@ -305,6 +323,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/brown_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2021-08-05 00:55:11 -0300"
@@ -347,6 +371,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log2": "2021-08-25 01:23:47 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/yellow_umbrella": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -380,6 +410,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2021-07-30 22:58:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_red_sandstone": "2021-08-25 01:12:58 -0300"
     },
     "done": true
   },
@@ -494,6 +530,12 @@
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_bonemeal": "2021-08-01 21:38:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-08-25 04:07:55 -0300"
     },
     "done": true
   },
@@ -773,9 +815,21 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/black_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2021-08-01 22:37:28 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/pink_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
     },
     "done": true
   },
@@ -889,6 +943,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2021-08-01 23:13:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2021-08-25 01:12:58 -0300"
     },
     "done": true
   },
@@ -1144,6 +1204,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2021-08-22 18:22:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -1159,6 +1225,12 @@
   "pixelmon:recipes/decorative/green_folding_chair": {
     "criteria": {
       "has_wool": "2021-08-08 20:23:00 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/green_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
     },
     "done": true
   },
@@ -1294,6 +1366,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2021-08-22 18:22:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2021-07-31 00:10:08 -0300"
@@ -1342,6 +1420,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/white_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2021-07-31 00:06:48 -0300"
@@ -1354,9 +1438,21 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/yellow_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_log": "2021-08-01 23:21:41 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/orange_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
     },
     "done": true
   },
@@ -1474,9 +1570,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2021-08-01 22:28:58 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/purple_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
     },
     "done": true
   },
@@ -1534,6 +1642,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/blue_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/orange_rug": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
@@ -1577,9 +1691,12 @@
       "forest_hills": "2021-08-05 00:46:31 -0300",
       "plains": "2021-07-30 23:47:24 -0300",
       "savanna": "2021-08-15 21:33:47 -0300",
+      "savanna_rock": "2021-08-24 22:26:40 -0300",
       "ice_mountains": "2021-07-30 23:47:19 -0300",
       "taiga": "2021-07-30 22:58:41 -0300",
+      "redwood_taiga": "2021-08-24 14:58:20 -0300",
       "taiga_hills": "2021-07-30 23:44:16 -0300",
+      "redwood_taiga_hills": "2021-08-24 14:58:13 -0300",
       "birch_forest_hills": "2021-08-09 20:10:53 -0300",
       "mushroom_island": "2021-08-16 00:11:33 -0300",
       "taiga_cold": "2021-08-05 00:44:06 -0300",
@@ -1620,6 +1737,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2021-07-30 22:58:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2021-08-22 18:22:06 -0300"
     },
     "done": true
   },
@@ -1809,6 +1932,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/cyan_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stonebrick": {
     "criteria": {
       "has_stone": "2021-08-01 20:21:32 -0300"
@@ -1824,6 +1953,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2021-07-30 22:58:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2021-08-25 01:12:58 -0300"
     },
     "done": true
   },
@@ -1950,6 +2085,12 @@
   "pixelmon:recipes/decorative/brown_cushion_chair": {
     "criteria": {
       "has_wool": "2021-08-01 22:28:58 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/gray_water_float": {
+    "criteria": {
+      "has_slime": "2021-08-25 03:21:32 -0300"
     },
     "done": true
   },
