@@ -1,0 +1,12 @@
+20:45:44 [INFO] [DependencyLoader] Forge found. Skipping Quickloading.
+20:45:46 [INFO] [DependencyLoader] Injecting classloader 'net.minecraft.launchwrapper.LaunchClassLoader' with 'C:\Users\Mandrago\Desktop\Pixelmon\Dependencies\deploader.jar'
+20:45:46 [INFO] [DependencyLoader] Searching mainclass 'eu.mccluster.dependency.deploader.DependencyLoader' in classloader 'net.minecraft.launchwrapper.LaunchClassLoader'
+20:45:46 [INFO] [DependencyLoader] Loading DependencyLoader
+20:46:08 [INFO] [DependencyLoader] Loading CONFIGMANAGER-DEPENDENCY
+20:46:08 [INFO] [DependencyLoader] Enabling CONFIGMANAGER-DEPENDENCY
+21:16:55 [INFO] [DependencyLoader] Forge found. Skipping Quickloading.
+21:16:57 [INFO] [DependencyLoader] Injecting classloader 'net.minecraft.launchwrapper.LaunchClassLoader' with 'C:\Users\Mandrago\Desktop\Pixelmon\Dependencies\deploader.jar'
+21:16:57 [INFO] [DependencyLoader] Searching mainclass 'eu.mccluster.dependency.deploader.DependencyLoader' in classloader 'net.minecraft.launchwrapper.LaunchClassLoader'
+21:16:57 [INFO] [DependencyLoader] Loading DependencyLoader
+21:17:19 [INFO] [DependencyLoader] Loading CONFIGMANAGER-DEPENDENCY
+21:17:19 [INFO] [DependencyLoader] Enabling CONFIGMANAGER-DEPENDENCY

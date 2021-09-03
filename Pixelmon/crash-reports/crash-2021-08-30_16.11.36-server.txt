@@ -1,0 +1,158 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  PixelmoneyCoreMod (PixelMoney-1.12.2-3.0.6-server.jar)
+  SpongeCoremod (spongeforge-1.12.2-2838-7.3.0.jar)
+Contact their authors BEFORE contacting forge
+
+// Who set us up the TNT?
+
+Time: 8/30/21 4:11 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod pixelmonwikigui (PixelmonWikiGUI) requires [gooeylibs]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: [Empty stack]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$zjj000$onCrashReport(MinecraftServer.java:4687)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:558)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1413478392 bytes (1347 MB) / 2097152000 bytes (2000 MB) up to 6291456000 bytes (6000 MB)
+	JVM Flags: 20 total; -Xms2000M -Xmx6000M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2855 83 mods loaded, 83 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	Mods:
+
+	| State | ID                 | Version                | Source                                              | Signature                                |
+	|:----- |:------------------ |:---------------------- |:--------------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft          | 1.12.2                 | minecraft.jar                                       | None                                     |
+	| L     | mcp                | 9.42                   | minecraft.jar                                       | None                                     |
+	| L     | FML                | 8.0.99.99              | Server.jar                                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge              | 14.23.5.2855           | Server.jar                                          | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | spongeapi          | 7.3-7127e0882          | spongeforge-1.12.2-2838-7.3.0.jar                   | None                                     |
+	| L     | sponge             | 1.12.2-7.3.0           | spongeforge-1.12.2-2838-7.3.0.jar                   | None                                     |
+	| L     | spongeforge        | 1.12.2-2838-7.3.0      | spongeforge-1.12.2-2838-7.3.0.jar                   | None                                     |
+	| L     | chooseattacklagfix | 1.12.2-1.0.1-server    | ChooseAttackLagFix-1.12.2-1.0.1-server.jar          | None                                     |
+	| L     | activationrangefix | 1.12.2-1.0.0-universal | EntityActivationRangeFix-1.12.2-1.0.0-universal.jar | None                                     |
+	| L     | flashplus          | 1.5.5                  | FlashPlus-1.5.5-shadow.jar                          | None                                     |
+	| L     | gooeylibs2         | 2.2.0                  | GooeyLibs-2.2.0.jar                                 | None                                     |
+	| L     | legendaryplus      | 6.0                    | LegendaryPlus-6.0.jar                               | None                                     |
+	| L     | pauc               | 1.12.2-1.3.2-universal | PixelAuction-1.12.2-1.3.2-universal.jar             | None                                     |
+	| L     | pixelevent         | 7.3                    | PixelEvent-7.3.jar                                  | None                                     |
+	| L     | pixelextras        | 2.5.13                 | PixelExtras-1.12.2-2.5.13-universal.jar             | None                                     |
+	| L     | pixelmon           | 8.2.0                  | Pixelmon-1.12.2-8.2.0-server.jar                    | None                                     |
+	| L     | pixelmonbroadcasts | 0.6.1-universal        | PixelmonBroadcasts-1.12.2-0.6.1-universal.jar       | None                                     |
+	| L     | pixelmonfriends    | 2.3.1                  | pixelmonfriends-1.12.2-2.3.1-universal.jar          | None                                     |
+	| L     | pixelmonsts        | 1.1.7                  | PixelmonSTS-1.1.7.jar                               | None                                     |
+	| L     | pixelmonwikigui    | 1.1.4                  | pixelmonwikigui-1.1.4.jar                           | None                                     |
+	| L     | pixeltrashcan      | 1.0.1                  | PixelTrashCan-1.0.2-SNAPSHOT.jar                    | None                                     |
+	| L     | remoraids          | 1.1.2                  | RemoRaids-1.12.2-1.1.2.jar                          | None                                     |
+	| L     | trainercommands    | 2.5.1                  | TrainerCommands-1.12.2-2.5.1-universal.jar          | None                                     |
+	| L     | unbreed            | 4.0                    | Unbreed-4.0.jar                                     | None                                     |
+	| L     | wondertrade        | 4.6.2                  | WonderTrade-1.12.2-4.6.2-universal.jar              | None                                     |
+
+
+	Plugins:
+
+	| State | ID                    | Version               | Source                                                        | Signature |
+	|:----- |:--------------------- |:--------------------- |:------------------------------------------------------------- |:--------- |
+	| L     | ultimatechat          | 1.9.1                 | aUltimateChat-1.9.1-b290-Universal.jar                        | None      |
+	| L     | autopickup            | 1.0.5                 | AutoPickup-1.0.5.jar                                          | None      |
+	| L     | blockcommand          | 1.1                   | BlockCommand-1.1.jar                                          | None      |
+	| L     | carrotshop            | 1.20-S7.2-MC1.12.2    | CarrotShop-1.20-S7.2-MC1.12.2.jar                             | None      |
+	| L     | catclearlag           | 0.9.0                 | CatClearLag-0.9.5.1.jar                                       | None      |
+	| L     | cmdcontrol            | 1.2.0                 | CmdControl-s7.1-v1.2.0.jar                                    | None      |
+	| L     | cmdscheduler          | 1.1.1                 | CmdScheduler-s7.1-v1.1.1.jar                                  | None      |
+	| L     | coinpurse             | 1.2.1                 | CoinPurse-1.2.1.jar                                           | None      |
+	| L     | command-utils         | 2.4.0                 | command-utils-2.4.0.jar                                       | None      |
+	| L     | commanditems          | 2.2                   | CommandItems-2.2.jar                                          | None      |
+	| L     | cratedrops            | 1.3                   | CrateDrops-1.3.jar                                            | None      |
+	| L     | dailyrewards          |                       | DailyRewards-api7-1.3.3.jar                                   | None      |
+	| L     | pixelmoneconomybridge | 2.0.7                 | EcoBridge-1.12.2-2.0.7.jar                                    | None      |
+	| L     | economylite           | 2.15.1                | EconomyLite-7.1.0-2.15.1.jar                                  | None      |
+	| L     | fastasyncworldedit    | development           | FastAsyncWorldEdit-sponge112-19.11.13-5505943-1282-22.3.5.jar | None      |
+	| L     | worldedit             |                       | FastAsyncWorldEdit-sponge112-19.11.13-5505943-1282-22.3.5.jar | None      |
+	| L     | griefdefender         | 1.5.10                | griefdefender-sponge-1.5.10.jar                               | None      |
+	| L     | gts                   | 6.1.8-SNAPSHOT        | GTS-Sponge-6.1.8-SNAPSHOT.jar                                 | None      |
+	| L     | headsevolved          | 1.0.12                | Heads-Evolved-1.0.12.jar                                      | None      |
+	| L     | holograms             | 3.1.5                 | holograms-3.1.5.jar                                           | None      |
+	| L     | huskycrates           | 2.0.0RC3              | HuskyCrates.jar                                               | None      |
+	| L     | huskycratesextension  | 1.0                   | HuskycratesExtension.jar                                      | None      |
+	| L     | huskyui               | 0.6.0PRE4             | HuskyUI-v0.6.0-PRE4-API7.jar                                  | None      |
+	| L     | impactor              | 3.1.2                 | Impactor-Sponge-7.1.5-3.1.2.jar                               | None      |
+	| L     | keepinventorysponge   | 1.3.1                 | KeepInventory.jar                                             | None      |
+	| L     | lottery               | 2.0.2                 | lottery-2.0.2.jar                                             | None      |
+	| L     | luckperms             | 5.3.27                | LuckPerms-Sponge-5.3.27.jar                                   | None      |
+	| L     | mask                  | 1.0.279715646         | mask-1.0.279715646.jar                                        | None      |
+	| L     | mmcrestrict           | 1.7.1                 | MMCRestrict-1.7.1-API-7.jar                                   | None      |
+	| L     | nofalldamage          | 1.0.0                 | NoFallDamage-1.0-SNAPSHOT.jar                                 | None      |
+	| L     | nucleus               | 2.4.0                 | Nucleus-2.4.0-MC1.12.2-SpongeAPI7.3-plugin.jar                | None      |
+	| L     | nuvotifier            | 2.7.2                 | nuvotifier-2.7.2.jar                                          | None      |
+	| L     | packetgate            | 0.1.1                 | PacketGate-0.1.1.jar                                          | None      |
+	| L     | pixelautomessages     | 1.0.3                 | PixelAutoMessages-1.0.3-b15.jar                               | None      |
+	| L     | chatpixel             | 1.53                  | PixelChat-1.53.jar                                            | None      |
+	| L     | pixelgenocide         | 1.1.1                 | PixelGenocide-1.1.1.jar                                       | None      |
+	| L     | pixelhunt             | 1.1.3                 | PixelHunt-1.1.3-MC1.12.2-S7.2.0.jar                           | None      |
+	| L     | pixelmoney            | 3.0.6                 | PixelMoney-1.12.2-3.0.6-server.jar                            | None      |
+	| L     | pixelmonoverlay       | 1.1.1                 | pixelmonoverlay-1.1.1.jar                                     | None      |
+	| L     | pixelmonplaceholders  | 2.1.6                 | pixelmonplaceholders-2.1.6.jar                                | None      |
+	| L     | placeholderapi        | 4.4                   | PlaceholderAPI-4.4_2.jar                                      | None      |
+	| L     | plotsquared           | 3.5.0-SNAPSHOT        | PlotSquared-Sponge-20.04.13-6481f4f-797.jar                   | None      |
+	| L     | poketeams             | 4.0.8                 | PokeTeams-4.0.8.jar                                           | None      |
+	| L     | pjc                   | 0.3.0                 | projectcore-7.2.0-0.3.0.jar                                   | None      |
+	| L     | protocolcontrol       | 0.0.2                 | protocolcontrol-0.0.2.jar                                     | None      |
+	| L     | queuebattles          | 1.0.2                 | QueueBattles-1.12.2-1.0.2.jar                                 | None      |
+	| L     | skitskurrsranchloot   | 1.0                   | RanchLoot.jar                                                 | None      |
+	| L     | safetrade             | 1.12.2-3.0.4-PIXELMON | SafeTrade-1.12.2-3.0.4-PIXELMON.jar                           | None      |
+	| L     | seriousvote           | 4.9.1                 | seriousvote-4.9.1.jar                                         | None      |
+	| L     | simpledexrewards      |                       | SimpleDexRewards-1.0.1-RELEASE-.jar                           | None      |
+	| L     | skinsrestorer         | 14.0.2                | SkinsRestorer.jar                                             | None      |
+	| L     | stackban              | 0.3.0                 | stackban-7.1.0-0.3.0.jar                                      | None      |
+	| L     | statusprotocol        | 0.3                   | statusprotocol-0.3.jar                                        | None      |
+	| L     | tabmanager            | 2.1.3-S7.0-MC1.12.2   | TabManager-2.1.3-S7.0-MC1.12.2.jar                            | None      |
+	| L     | teslalibs             | 1.1.6                 | TeslaPowered-s7.1-v1.1.6.jar                                  | None      |
+	| L     | teslacore             | 1.1.6                 | TeslaPowered-s7.1-v1.1.6.jar                                  | None      |
+	| L     | virtualchest          | 1.0.2                 | VirtualChest-1.0.2.jar                                        | None      |
+	| L     | voteparty             | 1.3.4                 | VoteParty-1.3.4.jar                                           | None      |
+
+	Loaded coremods (and transformers): 
+PixelmoneyCoreMod (PixelMoney-1.12.2-3.0.6-server.jar)
+  
+SpongeCoremod (spongeforge-1.12.2-2838-7.3.0.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)
